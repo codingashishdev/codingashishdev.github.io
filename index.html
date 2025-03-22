@@ -6,102 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashish Prajapati</title>
     <link href="src/output.css" rel="stylesheet">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="ml-30 mr-30 flex justify-around flex-col font-(family-name: 'Poppins', sans-serif)">
-    <header class="pl-5 pr-5 text-gray-800 align-middle border-b-2">
-        <div class="container flex justify-between h-16 mx-auto">
-            <a href="#" aria-label="Back to homepage" class="flex items-center p-2">
-                <h1 class="text-2xl font-extrabold font-serif">Ashish Prajapati</h1>
-            </a>
-            <ul class="items-stretch hidden space-x-3 lg:flex">
-                <li class="flex">
-                    <a href="pages/blogs.html" class="flex font-bold items-center px-4 -mb-1 border-b-2 border-transparent">
-                        Blogs
-                    </a>
-                </li>
-                <li class="flex">
-                    <a href="#" class="flex font-bold items-center px-4 -mb-1 border-b-2 border-transparent">
-                        Profiles
-                    </a>
-                </li>
-                <li class="flex">
-                    <a href="#" class="flex font-bold items-center px-4 -mb-1 border-b-2 border-transparent">
-                        Projects
-                    </a>
-                </li>
-                <li class="flex">
-                    <a href="#" class="flex font-bold items-center px-4 -mb-1 border-b-2 border-transparent">
-                        Let's talk
-                    </a>
-                </li>
-            </ul>
-
-            <button class="p-4 lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                    class="w-6 h-6 text-coolGray-800">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16">
-                    </path>
-                </svg>
-            </button>
-
-
+<body class="font-['Poppins'] bg-gray-50">
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <a href="index.html" class="flex items-center">
+                    <h1
+                        class="text-2xl font-extrabold text-gray-800 hover:text-blue-600 hover:underline transition-colors">
+                        Ashish Prajapati</h1>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-8">
+                    <a href="../index.html"
+                        class="text-gray-600 hover:text-blue-600 font-medium hover:underline transition-colors">Home</a>
+                    <a href="pages/blogs.html"
+                        class="text-gray-800 hover:text-blue-600 font-medium transition-colors hover:underline">Blogs</a>
+                    <a href="#"
+                        class="text-gray-600 hover:text-blue-600 font-medium transition-colors hover:underline">Profiles</a>
+                    <a href="#"
+                        class="text-gray-600 hover:text-blue-600 font-medium transition-colors hover:underline">Projects</a>
+                    <a href="#"
+                        class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors font-medium">Let's
+                        talk</a>
+                </nav>
+                <button class="lg:hidden p-2 hover:bg-gray-100 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
-    <main class="flex ml-5 mr-5 mt-7 justify-between">
-        <div class="w-180 space-y-1 flex-wrap">
-            <h1 class="text-4xl font-extrabold">Hello, I am Ashish</h1><br>
-            <h2 class="text-3xl text-violet-800 italic">Building, Exploring and learning</h2>
-            <br>
-            <p class="font-semibold leading-[1.5]">I am a full stack developer(mostly MERN) passionate about JavaScript, Databases and APIs.
-                I am also curious about Mathamatics, Linux and C/C++(Mostly Data Structures and Algorithms)
-            </p><br>
 
-            <p class="font-semibold">I love to learn new things, mostly tech related and trending stuff</p><br>
-            <p class="font-semibold">I am looking to share my knowledge by blogs and posts</p><br>
+    <main
+        class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row justify-evenly min-h-screen pt-40">
+        <div class="lg:w-1/2 space-y-6">
+            <h1 class="text-5xl font-extrabold text-gray-900">Hello, I'm Ashish</h1>
+            <h2 class="text-3xl text-violet-800 font-semibold">Building, Exploring and Learning</h2>
 
-            <div class="flex space-x-1 pl-0">
-                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-                    <button class="relative flex justify-center align-middle group pl-0 p-1 max-w-35 hover:cursor-pointer hover:underline hover:trans">
-                        <div class="bg-white relative border-1 rounded-lg">
-                            <div class="p-2 flex items-center">
-                                <img src="public/icons8-linkedin.svg" alt="LinkedIn" class="w-8 h-8 p-1 z-10 transition-all duration-200 group-hover:brightness-75 group-hover:hue-rotate-120">
-                                <p class="text-x text-black-100 font-outerSans font-medium group-hover:text-violet-600 -underline-offset-1">LinkedIn</p>
-                            </div>
-                        </div>
-                    </button>
+            <p class="text-gray-700 leading-relaxed">
+                I'm a full stack developer specializing in MERN stack, passionate about JavaScript, Databases, and APIs.
+                My interests extend to Mathematics, Linux, and C/C++ (particularly Data Structures and Algorithms).
+            </p>
+
+            <p class="text-gray-700">I love learning new technologies and staying up-to-date with industry trends.</p>
+            <p class="text-gray-700">Sharing knowledge through blogs and posts is my way of giving back to the
+                community.</p>
+
+            <div class="flex space-x-4 pt-6">
+                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 bg-white px-4 py-2 rounded-lg shadow-md hover:shadow-md hover:underline transition-all">
+                    <img src="public/icons8-linkedin.svg" alt="LinkedIn" class="w-6 h-6">
+                    <span class="font-medium text-gray-800">LinkedIn</span>
                 </a>
-                <a href="https://github.com/codingashishdev" target="_blank" rel="noopener noreferrer">
-                    <button class="relative flex justify-center align-middle group p-1 max-w-35 hover:cursor-pointer hover:underline">
-                        <div class="bg-white relative border-1 rounded-lg ">
-                            <div class="p-2 flex items-center">
-                                <img src="public/icons8-github-logo.svg" alt="GitHub" class="w-8 h-8 p-1 transition-all duration-200 group-hover:brightness-75 group-hover:hue-rotate-120">
-                                <p class="text-x text-black-100 font-outerSans font-medium group-hover:text-violet-600">GitHub</p>
-                            </div>
-                        </div>
-                    </button>
+                <a href="https://github.com/codingashishdev" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 bg-white px-4 py-2 rounded-lg shadow-md hover:shadow-md hover:underline transition-all">
+                    <img src="public/icons8-github-logo.svg" alt="GitHub" class="w-6 h-6">
+                    <span class="font-medium text-gray-800">GitHub</span>
                 </a>
-                <a href="https://twitter.com/codingashish" target="_blank" rel="noopener noreferrer">
-                    <button class="relative flex justify-center align-middle group p-1 max-w-35 hover:cursor-pointer hover:underline">
-                        <div class="bg-white relative border-1 rounded-lg">
-                            <div class="p-2 flex items-center">
-                                <img src="public/icons8-twitter.svg" alt="Twitter" class="w-8 h-8 p-1 transition-all duration-200 group-hover:brightness-75 group-hover:hue-rotate-120">
-                                <p class="text-x text-black-100 font-outerSans font-medium group-hover:text-violet-600">Twitter</p>
-                            </div>
-                        </div>
-                    </button>
+                <a href="https://twitter.com/codingashish" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center space-x-2 bg-white px-4 py-2 rounded-lg shadow-md hover:shadow-md hover:underline transition-all">
+                    <img src="public/icons8-twitter.svg" alt="Twitter" class="w-6 h-6">
+                    <span class="font-medium text-gray-800">Twitter</span>
                 </a>
             </div>
 
-            <!-- <p>When i was in 3th grade(almost 2012), i got my first-ever PC and it had windows XP installed on it. I used to play games, exploring new things, like going through every single file on the computer looking for something new. I didn't knew anything about coding and stuff back then, but I had been explored everything(almost). Now come back to 2019, when i was in 10th grade, I got 81.33% marks and had decided to choose science stream(PCM). After choosing science stream, I thought everything was going to be smooth. But the massive mental pressure was waiting for me. I got failed in 1 subject(sanskurt), I was shocked and had decided to not to tell to my parents about the results, but truth cannot be hidden for a long time, they got to know about my results from one of my school teacher. I had to face a lots of critisisim and that was probably my lowest point in my entire life. It didn't take me long to come out of that situation and very next year, I had started working very hard, but got 70% marks due to covid pandemic. After completing my schooling, I had decided to pursue Bsc Mathamatics(because my favorite subject was math), but due to some personal reasons and circumstances, choose BCA(Bachelor of Computer Applications). After choosing BCA, I got to know about coding, but I was not so serious about 
-            </p> -->
-
+            <a href="../pages/blogs.html" class="text-blue-800 underline text-2xl">Checkout my Blogs</a><br>
+            <a href="../pages/latest-posts.html" class="text-blue-800 underline text-2xl"></a>
         </div>
-        <div class="w-2/5">
+
+        <div class="lg:w-1/2 flex justify-center mb-12 lg:mb-0">
             <img src="https://avatars.githubusercontent.com/u/108178021?s=400&u=d5d3c95a3ccce0a2ca62ac115f541c81c7a60eed&v=4"
-                alt="" class=" border-0 rounded-4xl relative left-25 w-120 h-120">
+                alt="Ashish Prajapati" class="rounded-xl w-97 h-97 object-cover shadow-2xl">
         </div>
     </main>
+
+    <footer class="bg-amber-600 mt-24 h-30 border-t border-gray-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <p class="text-center text-gray-600">© 2025 Ashish Prajapati.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
