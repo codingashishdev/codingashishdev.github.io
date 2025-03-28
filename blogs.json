@@ -1,0 +1,35 @@
+[
+  {
+    "id": "introduction-to-tailwind-css",
+    "title": "Introduction to Tailwind CSS",
+    "slug": "introduction-to-tailwind-css",
+    "date": "March 25, 2025",
+    "readTime": "5 min read",
+    "category": "CSS • Web Development",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
+    "summary": "Learn how to set up and use Tailwind CSS in your projects. Discover the benefits of utility-first CSS frameworks.",
+    "content": "content/introduction-to-tailwind-css.md"
+  },
+  {
+    "id": "creating-rest-api-with-node",
+    "title": "Creating a REST API with Node.js",
+    "slug": "creating-rest-api-with-node",
+    "date": "March 20, 2025",
+    "readTime": "8 min read",
+    "category": "Node.js • Backend",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "summary": "Step-by-step guide to building a REST API using Node.js, Express, and MongoDB that can perform CRUD operations.",
+    "content": "content/creating-rest-api-with-node.md"
+  },
+  {
+    "id": "postgresql-on-arch-linux",
+    "title": "Installing PostgreSQL on Ubuntu",
+    "slug": "postgresql-on-arch-linux",
+    "date": "March 15, 2025",
+    "readTime": "6 min read",
+    "category": "Linux • Database",
+    "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    "summary": "A comprehensive guide to installing and configuring PostgreSQL on Arch Linux, including troubleshooting common issues.",
+    "content": "content/postgresql-on-arch-linux.md"
+  }
+]
