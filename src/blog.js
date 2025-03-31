@@ -205,27 +205,18 @@ const blogSystem = {
       // Clear container
       container.innerHTML = '';
       
-      // Create blog post cards
+      // Create blog post links with only date and title in a single horizontal line
       posts.forEach(post => {
         const postElement = document.createElement('article');
-        postElement.className = 'bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all';
+        postElement.className = '';
         
         postElement.innerHTML = `
-          <a href="blog.html?id=${post.id}">
-            <img src="${post.image}" alt="${post.title}" class="w-full h-48 object-cover">
-            <div class="p-6">
-              <span class="text-blue-600 text-sm font-medium">${post.category}</span>
-              <h2 class="text-xl font-bold text-gray-900 mt-2 hover:text-blue-600 transition-colors">${post.title}</h2>
-              <p class="text-gray-600 mt-3 line-clamp-3">${post.summary}</p>
-              <div class="flex items-center mt-4">
-                <time class="text-sm text-gray-500">${post.date}</time>
-                <span class="mx-2 text-gray-300">•</span>
-                <span class="text-sm text-gray-500">${post.readTime}</span>
-              </div>
-            </div>
+          <a href="blog.html?id=${post.id}" class="flex items-center pb-1 mt-4">
+            <span class="mx-1 text-black hover:text-blue-600 transition-colors">•</span>
+            <time class="text-sm text-gray-500 mr-2">${post.date}</time>
+            <h2 class="text-md font-bold text-gray-900 hover:text-blue-600 transition-colors">${post.title}</h2>
           </a>
         `;
-        
         container.appendChild(postElement);
       });
     } catch (error) {
