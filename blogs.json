@@ -1,35 +1,68 @@
 [
   {
-    "id": "introduction-to-tailwind-css",
-    "title": "Introduction to Tailwind CSS",
-    "slug": "introduction-to-tailwind-css",
-    "date": "March 25, 2025",
-    "readTime": "5 min read",
-    "category": "CSS • Web Development",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-    "summary": "Learn how to set up and use Tailwind CSS in your projects. Discover the benefits of utility-first CSS frameworks.",
-    "content": "content/introduction-to-tailwind-css.md"
-  },
-  {
-    "id": "creating-rest-api-with-node",
-    "title": "Creating a REST API with Node.js",
-    "slug": "creating-rest-api-with-node",
-    "date": "March 20, 2025",
-    "readTime": "8 min read",
+    "id": "creating-a-url-shortener-with-nodejs-express-and-mongodb-a-step-by-step-guide",
+    "title": "Creating a URL Shortener with Node.js, Express, and MongoDB: A Step-by-Step Guide",
+    "slug": "creating-a-url-shortener-with-nodejs-express-and-mongodb-a-step-by-step-guide",
+    "date": "January 19, 2025",
+    "readTime": "3 min read",
     "category": "Node.js • Backend",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    "summary": "Step-by-step guide to building a REST API using Node.js, Express, and MongoDB that can perform CRUD operations.",
-    "content": "content/creating-rest-api-with-node.md"
+    "image": "",
+    "summary": "In the internet age, long and complicated URLs can be a hassle to share or remember. A URL shortener service provides an elegant solution by converting lengthy URLs into compact, shareable links.",
+    "content": "content/creating-a-url-shortener-with-nodejs.md"
   },
   {
-    "id": "postgresql-on-arch-linux",
-    "title": "Installing PostgreSQL on Ubuntu",
-    "slug": "postgresql-on-arch-linux",
-    "date": "March 15, 2025",
-    "readTime": "6 min read",
+    "id": "understanding-aggregation-pipelines-in-mongodb",
+    "title": "Understanding Aggregation Pipelines in MongoDB",
+    "slug": "understanding-aggregation-pipelines-in-mongodb",
+    "date": "January 14, 2025",
+    "readTime": "3 min read",
+    "category": "MongoDB • Database",
+    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1736862903277/fa516550-2195-41ea-8e9a-9ad4f0a26d48.png",
+    "summary": "Aggregation pipelines in MongoDB are a powerful framework for transforming and analyzing data within your database. By leveraging the aggregation framework, you can perform complex data manipulations directly within MongoDB.",
+    "content": "content/understanding-aggregation-pipelines-in-mongodb.md"
+  },
+  {
+    "id": "intro-to-bash",
+    "title": "Intro to bash",
+    "slug": "intro-to-bash",
+    "date": "October 29, 2024",
+    "readTime": "1 min read",
+    "category": "Linux • Shell",
+    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1730205426558/3741e6c9-825a-40cf-a239-6cc65701b85f.png",
+    "summary": "Bash is a shell, or commend language interpreter, for the GNU operating system. Learn the basics including variables, printing, and control structures.",
+    "content": "content/intro-to-bash.md"
+  },
+  {
+    "id": "step-by-step-guide-to-installing-postgresql-on-arch-linux",
+    "title": "Step-by-Step Guide to Installing PostgreSQL on Arch Linux",
+    "slug": "step-by-step-guide-to-installing-postgresql-on-arch-linux",
+    "date": "October 24, 2024",
+    "readTime": "2 min read",
     "category": "Linux • Database",
-    "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    "summary": "A comprehensive guide to installing and configuring PostgreSQL on Arch Linux, including troubleshooting common issues.",
+    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729735234884/33be7f7c-2f51-46be-af4e-8c7df8aebc4f.png",
+    "summary": "Learn to install and set up PostgreSQL on Arch Linux with this simple step-by-step guide.",
     "content": "content/postgresql-on-arch-linux.md"
+  },
+  {
+    "id": "create-a-simple-rest-api-that-can-perform-crud-operations",
+    "title": "Create a simple REST API that can perform CRUD operations",
+    "slug": "create-a-simple-rest-api-that-can-perform-crud-operations",
+    "date": "October 23, 2024",
+    "readTime": "6 min read", 
+    "category": "Node.js • API",
+    "image": "",
+    "summary": "Learn to create a simple REST API, perform CRUD operations, and apply best practices for secure and scalable web application development.",
+    "content": "content/create-a-simple-rest-api.md"
+  },
+  {
+    "id": "5-ways-to-add-tailwind-css-to-your-project",
+    "title": "5 Ways to Add Tailwind CSS to Your Project",
+    "slug": "5-ways-to-add-tailwind-css-to-your-project",
+    "date": "October 22, 2024",
+    "readTime": "3 min read",
+    "category": "CSS • Web Development",
+    "image": "",
+    "summary": "Discover five different methods to integrate Tailwind CSS into your web development projects.",
+    "content": "content/5-ways-to-add-tailwind-css-to-your-project.md"
   }
 ]
