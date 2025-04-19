@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      { 
+        "source": "/megablog/:path*", 
+        "destination": "https://your-megablog-project-url.vercel.app/megablog/:path*" 
+      }
+    ]
+  }
