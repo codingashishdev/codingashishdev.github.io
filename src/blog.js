@@ -163,27 +163,27 @@ const blogSystem = {
       // Load all blog posts metadata
       const posts = await this.loadBlogPosts();
       const post = posts.find(p => p.id === id);
-      
+
       if (!post) throw new Error(`Blog post with ID "${id}" not found`);
-      
+
       // Fetch the markdown content
       const contentResponse = await fetch(`../${post.content}`); // Changed from '/${post.content}'
       if (!contentResponse.ok) throw new Error('Failed to load blog post content');
-      
+
       const markdown = await contentResponse.text();
-      
+
       // Parse markdown to HTML using marked
       const content = marked.parse(markdown);
-      
+
       // Create the complete post object
       const completePost = {
         ...post,
         contentHtml: content
       };
-      
+
       // Save to cache
       this.cache[id] = completePost;
-      
+
       return completePost;
     } catch (error) {
       console.error('Error loading blog post:', error);
@@ -201,15 +201,15 @@ const blogSystem = {
 
     try {
       const posts = await this.loadBlogPosts();
-      
+
       // Clear container
       container.innerHTML = '';
-      
+
       // Create blog post links with only date and title in a single horizontal line
       posts.forEach(post => {
         const postElement = document.createElement('article');
         postElement.className = '';
-        
+
         postElement.innerHTML = `
           <a href="blog.html?id=${post.id}" class="flex items-center pb-1 mt-4">
             <span class="mx-1 text-black hover:text-blue-600 transition-colors">•</span>
@@ -229,7 +229,7 @@ const blogSystem = {
   async renderBlogPost(containerId, id) {
     // Ensure styles are added
     this.init();
-    
+
     const container = document.getElementById(containerId);
     if (!container) return;
 

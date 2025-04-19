@@ -1,68 +1,79 @@
 [
-  {
-    "id": "creating-a-url-shortener-with-nodejs-express-and-mongodb-a-step-by-step-guide",
-    "title": "Creating a URL Shortener with Node.js, Express, and MongoDB: A Step-by-Step Guide",
-    "slug": "creating-a-url-shortener-with-nodejs-express-and-mongodb-a-step-by-step-guide",
-    "date": "January 19, 2025",
-    "readTime": "3 min read",
-    "category": "Node.js • Backend",
-    "image": "",
-    "summary": "In the internet age, long and complicated URLs can be a hassle to share or remember. A URL shortener service provides an elegant solution by converting lengthy URLs into compact, shareable links.",
-    "content": "content/creating-a-url-shortener-with-nodejs.md"
-  },
-  {
-    "id": "understanding-aggregation-pipelines-in-mongodb",
-    "title": "Understanding Aggregation Pipelines in MongoDB",
-    "slug": "understanding-aggregation-pipelines-in-mongodb",
-    "date": "January 14, 2025",
-    "readTime": "3 min read",
-    "category": "MongoDB • Database",
-    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1736862903277/fa516550-2195-41ea-8e9a-9ad4f0a26d48.png",
-    "summary": "Aggregation pipelines in MongoDB are a powerful framework for transforming and analyzing data within your database. By leveraging the aggregation framework, you can perform complex data manipulations directly within MongoDB.",
-    "content": "content/understanding-aggregation-pipelines-in-mongodb.md"
-  },
-  {
-    "id": "intro-to-bash",
-    "title": "Intro to bash",
-    "slug": "intro-to-bash",
-    "date": "October 29, 2024",
-    "readTime": "1 min read",
-    "category": "Linux • Shell",
-    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1730205426558/3741e6c9-825a-40cf-a239-6cc65701b85f.png",
-    "summary": "Bash is a shell, or commend language interpreter, for the GNU operating system. Learn the basics including variables, printing, and control structures.",
-    "content": "content/intro-to-bash.md"
-  },
-  {
-    "id": "step-by-step-guide-to-installing-postgresql-on-arch-linux",
-    "title": "Step-by-Step Guide to Installing PostgreSQL on Arch Linux",
-    "slug": "step-by-step-guide-to-installing-postgresql-on-arch-linux",
-    "date": "October 24, 2024",
-    "readTime": "2 min read",
-    "category": "Linux • Database",
-    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729735234884/33be7f7c-2f51-46be-af4e-8c7df8aebc4f.png",
-    "summary": "Learn to install and set up PostgreSQL on Arch Linux with this simple step-by-step guide.",
-    "content": "content/postgresql-on-arch-linux.md"
-  },
-  {
-    "id": "create-a-simple-rest-api-that-can-perform-crud-operations",
-    "title": "Create a simple REST API that can perform CRUD operations",
-    "slug": "create-a-simple-rest-api-that-can-perform-crud-operations",
-    "date": "October 23, 2024",
-    "readTime": "6 min read", 
-    "category": "Node.js • API",
-    "image": "",
-    "summary": "Learn to create a simple REST API, perform CRUD operations, and apply best practices for secure and scalable web application development.",
-    "content": "content/create-a-simple-rest-api.md"
-  },
-  {
-    "id": "5-ways-to-add-tailwind-css-to-your-project",
-    "title": "5 Ways to Add Tailwind CSS to Your Project",
-    "slug": "5-ways-to-add-tailwind-css-to-your-project",
-    "date": "October 22, 2024",
-    "readTime": "3 min read",
-    "category": "CSS • Web Development",
-    "image": "",
-    "summary": "Discover five different methods to integrate Tailwind CSS into your web development projects.",
-    "content": "content/5-ways-to-add-tailwind-css-to-your-project.md"
-  }
+    {
+        "id": "creating-a-url-shortener-with-nodejs-express-and-mongodb-a-step-by-step-guide",
+        "title": "Creating a URL Shortener with Node.js, Express, and MongoDB: A Step-by-Step Guide",
+        "slug": "creating-a-url-shortener-with-nodejs-express-and-mongodb-a-step-by-step-guide",
+        "date": "January 19, 2025",
+        "readTime": "3 min read",
+        "category": "Node.js • Backend",
+        "image": "",
+        "summary": "In the internet age, long and complicated URLs can be a hassle to share or remember. A URL shortener service provides an elegant solution by converting lengthy URLs into compact, shareable links.",
+        "content": "content/creating-a-url-shortener-with-nodejs.md"
+    },
+    {
+        "id": "understanding-aggregation-pipelines-in-mongodb",
+        "title": "Understanding Aggregation Pipelines in MongoDB",
+        "slug": "understanding-aggregation-pipelines-in-mongodb",
+        "date": "January 14, 2025",
+        "readTime": "3 min read",
+        "category": "MongoDB • Database",
+        "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1736862903277/fa516550-2195-41ea-8e9a-9ad4f0a26d48.png",
+        "summary": "Aggregation pipelines in MongoDB are a powerful framework for transforming and analyzing data within your database. By leveraging the aggregation framework, you can perform complex data manipulations directly within MongoDB.",
+        "content": "content/understanding-aggregation-pipelines-in-mongodb.md"
+    },
+    {
+        "id": "intro-to-bash",
+        "title": "Intro to bash",
+        "slug": "intro-to-bash",
+        "date": "October 29, 2024",
+        "readTime": "1 min read",
+        "category": "Linux • Shell",
+        "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1730205426558/3741e6c9-825a-40cf-a239-6cc65701b85f.png",
+        "summary": "Bash is a shell, or commend language interpreter, for the GNU operating system. Learn the basics including variables, printing, and control structures.",
+        "content": "content/intro-to-bash.md"
+    },
+    {
+        "id": "step-by-step-guide-to-installing-postgresql-on-arch-linux",
+        "title": "Step-by-Step Guide to Installing PostgreSQL on Arch Linux",
+        "slug": "step-by-step-guide-to-installing-postgresql-on-arch-linux",
+        "date": "October 24, 2024",
+        "readTime": "2 min read",
+        "category": "Linux • Database",
+        "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729735234884/33be7f7c-2f51-46be-af4e-8c7df8aebc4f.png",
+        "summary": "Learn to install and set up PostgreSQL on Arch Linux with this simple step-by-step guide.",
+        "content": "content/postgresql-on-arch-linux.md"
+    },
+    {
+        "id": "create-a-simple-rest-api-that-can-perform-crud-operations",
+        "title": "Create a simple REST API that can perform CRUD operations",
+        "slug": "create-a-simple-rest-api-that-can-perform-crud-operations",
+        "date": "October 23, 2024",
+        "readTime": "6 min read",
+        "category": "Node.js • API",
+        "image": "",
+        "summary": "Learn to create a simple REST API, perform CRUD operations, and apply best practices for secure and scalable web application development.",
+        "content": "content/create-a-simple-rest-api.md"
+    },
+    {
+        "id": "5-ways-to-add-tailwind-css-to-your-project",
+        "title": "5 Ways to Add Tailwind CSS to Your Project",
+        "slug": "5-ways-to-add-tailwind-css-to-your-project",
+        "date": "October 22, 2024",
+        "readTime": "3 min read",
+        "category": "CSS • Web Development",
+        "image": "",
+        "summary": "Discover five different methods to integrate Tailwind CSS into your web development projects.",
+        "content": "content/5-ways-to-add-tailwind-css-to-your-project.md"
+    },
+    {
+        "id": "how-a-browser-works-under-the-hood",
+        "title": "How a browser works under the hood",
+        "slug": "how-a-browser-works-under-the-hood",
+        "date": "April 18, 2025",
+        "readTime": "2 min read",
+        "category": "Web Development",
+        "image": "",
+        "summary": "Explore the internal workings of web browsers and understand how they process and render web pages.",
+        "content": "content/how-a-browser-works-under-the-hood.md"
+    }
 ]

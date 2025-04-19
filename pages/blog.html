@@ -31,7 +31,7 @@
                 <button class="lg:hidden p-2 hover:bg-gray-100 rounded-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg> 
+                    </svg>
                 </button>
             </div>
         </div>
@@ -41,7 +41,7 @@
         <section class="max-w-5xl mx-auto">
             <h1 class="text-4xl font-bold text-gray-900 mb-6">My Blog</h1>
             <p class="text-lg text-gray-600 mb-8">Welcome to my personal blog where I share my thoughts, experiences, and knowledge about software development, technology, and more.</p>
-            
+
             <!-- Blog posts grid -->
             <div id="blog-grid" class="flex flex-col mt-0">
                 <!-- Blog posts will be loaded here dynamically -->
@@ -77,25 +77,25 @@
             // Check if we should show a single blog post or the list
             const urlParams = new URLSearchParams(window.location.search);
             const postId = urlParams.get('id');
-            
+
             if (postId) {
                 // Hide the blog list elements
                 document.querySelector('h1.text-4xl').style.display = 'none';
                 document.querySelector('p.text-lg').style.display = 'none';
                 document.getElementById('load-more').style.display = 'none';
-                
+
                 // Create a container for the blog post content
                 const blogContent = document.createElement('div');
                 blogContent.id = 'blog-content';
                 document.getElementById('blog-grid').before(blogContent);
                 document.getElementById('blog-grid').style.display = 'none';
-                
+
                 // Render the individual blog post
                 await blogSystem.renderBlogPost('blog-content', postId);
             } else {
                 // Load and render blog posts list
                 await blogSystem.renderBlogList('blog-grid');
-                
+
                 // Hide the load more button if there are fewer than 6 posts
                 const posts = await blogSystem.loadBlogPosts();
                 if (posts.length <= 6) {
@@ -103,7 +103,7 @@
                 }
             }
         });
-        
+
         // Handle the load more button click
         document.getElementById('load-more').addEventListener('click', function() {
             // This is where you'd implement pagination
